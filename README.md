@@ -14,6 +14,15 @@ If Permission denied (publickey).
 ```
 heroku keys:add
 ```
+push code to heroku
+```
+set production
+git add .
+git commit -m ''
+heroku create
+heroku run rake db:migrate
+heroku open
+```
 scaffolding
 ```
 #todo
@@ -26,4 +35,9 @@ run test
 ```
 rake test:integration
 ```
+make some test in exceptions_test.rb
+```
+#todo
+```
+
 
